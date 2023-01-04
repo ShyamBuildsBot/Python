@@ -1,4 +1,4 @@
-# --------Day 01--------
+# ----------------Day 01----------------
 
 # 01 Indentation
 # Python uses indentation to indicate a block of code
@@ -49,7 +49,7 @@ print(atype)
 btype = type(b)
 print(btype)
 
-# --------Day 02--------
+# ----------------Day 02----------------
 
 # 06 Multiple Variables & Multiple Values
 Pat_Name, Pat_DOS, Pat_DOB = "Shyam", "05/01/1995", "05/10/1920"
@@ -114,9 +114,9 @@ print(i)
 print(j)
 print(k)
 
-# ------------------------
+# ----------------Day 03----------------
 
-# 11.01.01 - String Arrays
+# 11.01.01 - Using String as Arrays
 l = "Quintessence"
 print(l[0])
 
@@ -160,22 +160,26 @@ for x in l:
 # ------------------------
 
 # 11.02 - Boolean: bool
+# 11.02 - True/False or 0/1
 m = ""
 print(bool(l))
 
+# ----------------Day 03----------------
+
 # 11.03 - Sequence
+# Sequence type are arrays in Python
 
 # 11.03.01 - Sequence: List
 # 11.03.02 - Sequence: Tuples
 # 11.03.03 - Sequence: Sets
 # 11.03.04 - Sequence: Dictionaries
 
-# 12 - Inbuilt Functions/Formulas - Strings
+#  - Inbuilt Functions/Formulas - Strings
 
-# 12.01 - Upper
-# 11.02 - Lower
-# 11.03 - Strip
-# 11.04 - Replace
-# 11.05 - Split
-# 11.06 - Concatenation
-# 11.07 - Format
+# .01 - Upper
+# .02 - Lower
+# .03 - Strip
+# .04 - Replace
+# .05 - Split
+# .06 - Concatenation
+# .07 - Format
