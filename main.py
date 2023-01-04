@@ -117,46 +117,65 @@ print(k)
 # ------------------------
 
 # 11.01.01 - String Arrays
-
+l = "Quintessence"
+print(l[0])
 
 # ------------------------
 
 # 11.01.02 - In String (Check Value inside a String)
-
+print("q" in l)
 
 # ------------------------
 
 # 11.01.03 - Not In String (Check Value not inside a String)
-
+print("Q" not in l)
 
 # ------------------------
 
 # 11.01.04 - String Slicing
-
+print(l[0:5])
 
 # ------------------------
 
 # 11.01.05 - String Slicing From Start
-
+print(l[:5])
 
 # ------------------------
 
 # 11.01.06 - String Slicing To End
-
-
-# ------------------------
-
-# 11.02 - Numeric:	int, float, complex
-
+l = "Quintessence"
+print(l[5:])
 
 # ------------------------
 
-# 11.03 - Sequence:	list, tuple, range
-# 11.04 - Mapping:	dict
-# 11.05 - Boolean:	bool
+# 11.01.07 - Negative Slicing
+print(l[-10:-5])
 
-# 12 - Inbuilt Functions/Formulas
+# ------------------------
 
-# 11.01.08 - Upper
-# 11.01.09 - Lower
-# 11.01.10 - String Slicing To End
+# 11.01.07 - Looping through Strings
+for x in l:
+  print(x)
+
+# ------------------------
+
+# 11.02 - Boolean: bool
+m = ""
+print(bool(l))
+
+# 11.03 - Sequence
+
+# 11.03.01 - Sequence: List
+# 11.03.02 - Sequence: Tuples
+# 11.03.03 - Sequence: Sets
+# 11.03.04 - Sequence: Dictionaries
+
+# 12 - Inbuilt Functions/Formulas - Strings
+
+# 12.01 - Upper
+# 11.02 - Lower
+# 11.03 - Strip
+# 11.04 - Replace
+# 11.05 - Split
+# 11.06 - Concatenation
+# 11.07 - Format
